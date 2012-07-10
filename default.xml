@@ -226,5 +226,8 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
   <project path="android" name="mephistophilis/android" />
+  <project path="kernel" name="mephistophilis/samsung_nowplus_kernel" revision="master"/>
+  <project path="bootable/bootloader/u-boot" name="mephistophilis/samsung_nowplus_u-boot" revision="master" />
+  <project path="odin" name="mephistophilis/odin" revision="master"/>
 
 </manifest>
