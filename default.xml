@@ -225,7 +225,10 @@
   <project path="android" name="mephistophilis/android" />
   <project path="hardware/ti/omap3-compat" name="mephistophilis/android_hardware_ti_omap3-compat" />
   <project path="vendor/samsung/nowplus" name="mephistophilis/android_vendor_samsung_nowplus" />
-  <project path="device/samsung/nowplus" name="mephistophilis/android_device_samsung_nowplus" />
+  <project path="device/samsung/nowplus" name="mephistophilis/android_device_samsung_nowplus">
+  	<copyfile src="device/samsung/nowplus/patch_nowplus.sh" dest="patch_nowplus.sh" />
+    <copyfile src="device/samsung/nowplus/build.sh" dest="build.sh" />
+  </project>
   <project path="kernel" name="mephistophilis/samsung_nowplus_kernel" revision="master"/>
   <project path="bootable/bootloader/u-boot" name="mephistophilis/samsung_nowplus_u-boot" revision="master" />
   <project path="odin" name="mephistophilis/odin" revision="master"/>
